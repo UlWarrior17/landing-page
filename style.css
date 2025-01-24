@@ -50,8 +50,7 @@ a {
 .hero-text {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  gap: 1px;
+  flex-wrap: wrap;
   margin: 0;
 }
 
@@ -106,7 +105,6 @@ h2 {
   overflow: hidden;
   justify-content: space-evenly;
   gap: 8px;
-  flex: 1;
   flex-wrap: wrap;
 }
 
@@ -162,13 +160,14 @@ h2 {
   align-items: center;
   flex: 1;
   flex-wrap: wrap;
+  gap: 3px;
   min-width: min-content;
 }
 
 .action-text h3,
-.action-text p{
-    padding: 0;
-    margin: 0;
+.action-text p {
+  padding: 0;
+  margin: 0;
 }
 
 .action-text,
